@@ -8,8 +8,9 @@ import Overview from "@/components/Overview";
 
 export default function Home() {
   return (
-    <main className="relative w-full h-[100dvh]">
-      <div className="w-full h-full">
+    <main className="absolute w-full h-full">
+      <Overview />
+      <div className="w-full h-full relative">
         <Map
           initialViewState={{
             longitude: -77.559239,
@@ -24,7 +25,6 @@ export default function Home() {
           ))}
         </Map>
       </div>
-      <Overview />
     </main>
   );
 }

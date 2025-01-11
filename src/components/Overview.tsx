@@ -57,7 +57,7 @@ const ProjectCard = ({ title, description, url }: ProjectCardProps) => (
 
 export default function Overview() {
   return (
-    <div className="absolute left-1/2 -translate-x-1/2 md:left-8 md:translate-x-0 top-8 w-[calc(100%-2rem)] md:w-[480px] lg:w-[520px] bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-4 md:p-8 border border-gray-100 hover:shadow-2xl transition-shadow duration-300">
+    <div className="z-10 absolute left-1/2 -translate-x-1/2 md:left-8 md:translate-x-0 top-8 w-[calc(100%-2rem)] md:w-[480px] lg:w-[520px] bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-4 md:p-8 border border-gray-100 hover:shadow-2xl transition-shadow duration-300">
       <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
         {"Hi, I'm Brandon Cohen."}
       </h2>
